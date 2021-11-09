@@ -15,11 +15,11 @@ export default class BarNav extends Component {
                             <Navbar.Brand href="#home"></Navbar.Brand>
                             <Nav className="me-auto">
                                 <Nav.Link href="#home">Hola</Nav.Link>
-                                <Nav.Link href="#features">Proyectos</Nav.Link>
-                                <Nav.Link href="#pricing">Contacto</Nav.Link>
+                                <Nav.Link href="#projects">Proyectos</Nav.Link>
+                                <Nav.Link href="#contact">Contacto</Nav.Link>
                             </Nav>
                             <Nav className="justify-content-end">
-                                <Button variant="outline-warning">Descargar C.V</Button>
+                                <a href="https://drive.google.com/file/d/1degdBn04owHyhU7xoSRaqRkL84EXVDR0/view?usp=sharing"> <Button variant="outline-warning">Descargar C.V</Button></a>
                             </Nav>
                         </Container>
                     </Navbar>

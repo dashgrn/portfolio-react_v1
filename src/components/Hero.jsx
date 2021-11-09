@@ -4,7 +4,7 @@ export default class Hero extends Component {
     render() {
         return (
             <div>
-                <div class="bg-dark text-secondary px-4 py-5 text-center">
+                <div id="hero" class="bg-dark text-secondary px-4 py-5 text-center">
                     <div class="py-5">
                         <h2>Hi extranger</h2>
                         <h1 class="display-5 fw-bold text-white">I'm Jose Fernández</h1>

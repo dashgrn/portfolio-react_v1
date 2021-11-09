@@ -12,11 +12,11 @@ export default class Contact extends Component {
     render() {
         return (
             <div class="bg-dark">
-                <div className="d-flex d-flex justify-content-center mb-3 pb-3">
+                <div className="d-flex d-flex justify-content-center">
                     <div class="row">
                         <Container>
-                            <div className="mx-3">
-                                <h2 class="text-white pt-4">Contacto</h2>
+                            <div className="mx-3 my-3">
+                                <h2 id="contact" class="text-white pt-4">Contacto</h2>
                                 <h6 class="text-white">Si estás interesado, no dudes en contactarme</h6>
                             </div>
                         </Container>
@@ -35,6 +35,11 @@ export default class Contact extends Component {
                                     <Form.Group className="mb-3 mx-4" controlId="Form.ControlTextarea1">
                                         <Form.Label>Mensaje</Form.Label>
                                         <Form.Control as="textarea" placeholder="Mensaje" rows={3} />
+                                    </Form.Group>
+                                    <Form.Group className="mb-3 mx-4">
+                                        <Button className="btn btn-primary"variant="warning" type="submit">
+                                            Enviar
+                                        </Button>
                                     </Form.Group>
                                 </div>
                             </Form>

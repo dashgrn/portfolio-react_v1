@@ -13,9 +13,10 @@ export default class Projects extends Component {
             <div>
                 <CardGroup>
                     <Container>
-                        <Row className="justify-content-md-center py-4">
+                        <Row id="projects" className="justify-content-md-center py-4">
                             <Col>
                                 <Card>
+                                <a class="text-decoration-none" href="https://dashgrn.github.io/Block_Master">
                                     <Card.Img variant="top" src="https://res.cloudinary.com/diqhctpcx/image/upload/v1636436585/thumb_bm_guh2oz.png" />
                                     <Card.Body>
                                         <Card.Title>Block Master</Card.Title>
@@ -23,10 +24,12 @@ export default class Projects extends Component {
                                             A Netflix like App
                                         </Card.Text>
                                     </Card.Body>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col>
                                 <Card>
+                                    <a class="text-decoration-none" href="https://dashgrn.github.io/FCC-Landing/">
                                     <Card.Img variant="top" src="https://res.cloudinary.com/diqhctpcx/image/upload/v1636436435/Screen_Shot_2021-11-09_at_12.39.57_AM_exeqdk.png" />
                                     <Card.Body>
                                         <Card.Title>EzPay</Card.Title>
@@ -34,10 +37,12 @@ export default class Projects extends Component {
                                             Landing
                                         </Card.Text>
                                     </Card.Body>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col>
                                 <Card>
+                                    <a class="text-decoration-none" href="https://dashgrn.github.io/principe-fresco/">
                                     <Card.Img variant="top" src="https://res.cloudinary.com/diqhctpcx/image/upload/v1636436763/fresh-prince-1-1-3-1_ypudgv.png" />
                                     <Card.Body>
                                         <Card.Title>Fresh Prince</Card.Title>
@@ -45,6 +50,7 @@ export default class Projects extends Component {
                                             Clothes Retail App
                                         </Card.Text>
                                     </Card.Body>
+                                    </a>
                                 </Card>
                             </Col>
                         </Row>
@@ -52,7 +58,7 @@ export default class Projects extends Component {
                     </Container>
 
                 </CardGroup>
-                <Button className="d-grid col-2 mx-auto m-4 btn-light mb" variant="warning">See more projects <i class="fas fa-arrow-right"></i></Button>{' '}
+                <a class="text-decoration-none" href="https://github.com/dashgrn/"> <Button className="d-grid col-2 mx-auto m-4 btn-light mb" variant="warning">See more projects <i class="fas fa-arrow-right"></i></Button>{' '}</a>
             </div>
         )
     }
