@@ -10,7 +10,7 @@ import '../styles/ServicesSyles.css'
 export default class Services extends Component {
     render() {
         return (
-            <div id="mainCont">
+            <div id="mainCont" class="pb-3 pt-3">
                 <h2 class="py-3 m-3">Servicios</h2>
                 <Container>
                     <Row>

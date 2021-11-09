@@ -16,7 +16,7 @@ export default class Projects extends Component {
                         <Row className="justify-content-md-center py-4">
                             <Col>
                                 <Card>
-                                    <Card.Img variant="top" src="holder.js/100px160" />
+                                    <Card.Img variant="top" src="https://res.cloudinary.com/diqhctpcx/image/upload/v1636436585/thumb_bm_guh2oz.png" />
                                     <Card.Body>
                                         <Card.Title>Block Master</Card.Title>
                                         <Card.Text>
@@ -27,22 +27,22 @@ export default class Projects extends Component {
                             </Col>
                             <Col>
                                 <Card>
-                                    <Card.Img variant="top" src="holder.js/100px160" />
+                                    <Card.Img variant="top" src="https://res.cloudinary.com/diqhctpcx/image/upload/v1636436435/Screen_Shot_2021-11-09_at_12.39.57_AM_exeqdk.png" />
                                     <Card.Body>
-                                        <Card.Title>Block Master</Card.Title>
+                                        <Card.Title>EzPay</Card.Title>
                                         <Card.Text>
-                                            A Netflix like App
+                                            Landing
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col>
                                 <Card>
-                                    <Card.Img variant="top" src="holder.js/100px160" />
+                                    <Card.Img variant="top" src="https://res.cloudinary.com/diqhctpcx/image/upload/v1636436763/fresh-prince-1-1-3-1_ypudgv.png" />
                                     <Card.Body>
-                                        <Card.Title>Block Master</Card.Title>
+                                        <Card.Title>Fresh Prince</Card.Title>
                                         <Card.Text>
-                                            A Netflix like App
+                                            Clothes Retail App
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
@@ -52,7 +52,7 @@ export default class Projects extends Component {
                     </Container>
 
                 </CardGroup>
-                <Button className="d-grid col-2 mx-auto btn-light" variant="warning">See more projects <i class="fas fa-arrow-right"></i></Button>{' '}
+                <Button className="d-grid col-2 mx-auto m-4 btn-light mb" variant="warning">See more projects <i class="fas fa-arrow-right"></i></Button>{' '}
             </div>
         )
     }

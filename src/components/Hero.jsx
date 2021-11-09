@@ -10,7 +10,7 @@ export default class Hero extends Component {
                         <h1 class="display-5 fw-bold text-white">I'm Jose Fernández</h1>
                         <div class="col-lg-6 mx-auto">
                             <p class="fs-5 mb-4">
-                                I'm a Front End Developer from Academia Geek!
+                                Front End Developer from Academia Geek!
                             </p>
                         </div>
                     </div>
